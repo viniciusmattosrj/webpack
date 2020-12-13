@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --hot --mode development",
+    "build": "webpack --mode production",
+    "commit": "git-cz"
+  },
+  "author": "Vinicius Mattos <mvinicius@funcionalcorp.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "git-cz": "^4.7.6",
+    "reac": "^0.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
