@@ -2,18 +2,16 @@
 
 # Requerimentos
 
-- docker e docker-compose
+- Docker e docker-compose ou NVM
 - Node &ge; 10.15.3
 - Npm ou Yarn
 
 ### Tecnologias Utilizadas
 
-* Application Structure, GraphQL NestJS
-* ORM, Migrations: TypeORM
 * Babel
 * React 
 * Code style: ESLint
-* 
+
 
 ### Sobre
 
